@@ -24,7 +24,7 @@ GM.shuffle()
 GM.create_cards()
 GM.body.pack()
 GM.animation_order(0,None,0)
-print("hola")
+print("hola mundo")
 
 window.mainloop()
 
