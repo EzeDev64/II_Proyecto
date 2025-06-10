@@ -56,26 +56,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Card.executor": "Run",
-    "Python.Game_Managger.executor": "Run",
-    "Python.Game_Managger_2mode.executor": "Run",
-    "Python.window.executor": "Run",
-    "Python.window_soloMode.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "modo__juego2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Card.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Game_Managger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Game_Managger_2mode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.window_soloMode.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;modo__juego2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.window_soloMode">
+}</component>
+  <component name="RunManager">
     <configuration name="window" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="II_Proyecto" />
       <option name="ENV_FILES" value="" />
@@ -85,7 +85,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.14" />
       <option name="WORKING_DIRECTORY" value="C:\Users\ezepr\Documents\Programación\Phyton\II_Proyecto" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -109,7 +108,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.14" />
       <option name="WORKING_DIRECTORY" value="C:\Users\ezepr\Documents\Programación\Phyton\II_Proyecto\modo_solo" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -133,7 +131,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$USER_HOME$/AppData/Local/Programs/Python/Python313/python.exe" />
-      <option name="SDK_NAME" value="Python 3.14" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
