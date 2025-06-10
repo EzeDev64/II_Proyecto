@@ -1,13 +1,14 @@
 from tkinter import *
 
 class Card:
-    def __init__(self,value,managger):
+    def __init__(self,value,managger,hide = True):
         self.couple = None
         self.value = value
         self.component = Button(managger.body,text=self.value,width=10,command=self.show)
         self.managger = managger
         self.active = False
-        self.hide()
+        if hide:
+            self.hide()
 
     def set_couple(self,couple):
         self.couple = couple

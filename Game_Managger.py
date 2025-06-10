@@ -9,6 +9,7 @@ class Game_Managger:
         self.action_time = 0
         self.player_lst = player_lst
         self.last_played_card = None
+        #self.grid_size = grid_size
 
     def shuffle(self):
         random.shuffle(self.card_lst)
@@ -46,7 +47,7 @@ class Game_Managger:
 
     def create_cards(self):
         index = 0
-        for i in range(0, 6):
-            for n in range(0, 6):
+        for i in range(0,6):
+            for n in range(0,6):
                 self.card_lst[index].component.grid(row=i, column=n)
                 index += 1
