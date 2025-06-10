@@ -18,13 +18,15 @@ for n in ids_lst:
     card = Card(n,GM,False)
     card_lst.append(card)
 
+ids_lst= ["1","2","3","4","5","6","7","8","9","10","11","12"]
+GM.set_full_lst(ids_lst)
+
 #Configurando distintos aspectos del Game Mannager
 GM.card_lst = card_lst
 GM.shuffle()
 GM.create_cards()
 GM.body.pack()
 GM.animation_order(0,None,0)
-print("hola mundo")
 
 window.mainloop()
 

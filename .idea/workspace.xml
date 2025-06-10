@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e176563-c4ae-46d1-9ef8-f6e6bd0be0e8" name="Changes" comment="Clases principales (Game_Managger,Card y Player) creados. Además de la lógica de escoger cartas, reconocer si son pares y arreglo de bugs)">
-      <change afterPath="$PROJECT_DIR$/modo_solo/Game_Managger_2mode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modo_solo/window_soloMode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/II_Proyecto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/II_Proyecto.iml" afterDir="false" />
+    <list default="true" id="1e176563-c4ae-46d1-9ef8-f6e6bd0be0e8" name="Changes" comment="Prueba de commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Card.py" beforeDir="false" afterPath="$PROJECT_DIR$/Card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_Managger.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game_Managger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modo_solo/Game_Managger_2mode.py" beforeDir="false" afterPath="$PROJECT_DIR$/modo_solo/Game_Managger_2mode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modo_solo/window_soloMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/modo_solo/window_soloMode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749294149327</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Prueba de commit">
+      <option name="closed" value="true" />
+      <created>1749578453575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749578453575</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Prueba de commit">
+      <option name="closed" value="true" />
+      <created>1749578555798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749578555798</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,13 +257,14 @@
     <MESSAGE value="Creación del repositorio con los archivos base" />
     <MESSAGE value="Creación de la clase Card y de la de la ventana principal.Lógica de mostrar y ocultar cartas; además de la aleatoriedad." />
     <MESSAGE value="Clases principales (Game_Managger,Card y Player) creados. Además de la lógica de escoger cartas, reconocer si son pares y arreglo de bugs)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clases principales (Game_Managger,Card y Player) creados. Además de la lógica de escoger cartas, reconocer si son pares y arreglo de bugs)" />
+    <MESSAGE value="Prueba de commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prueba de commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/II_Proyecto$Game_Managger_2mode.coverage" NAME="Game_Managger_2mode Coverage Results" MODIFIED="1749580251020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modo_solo" />
+    <SUITE FILE_PATH="coverage/II_Proyecto$window_soloMode.coverage" NAME="window_soloMode Coverage Results" MODIFIED="1749580380212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modo_solo" />
     <SUITE FILE_PATH="coverage/II_Proyecto$window.coverage" NAME="window Coverage Results" MODIFIED="1749502990879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/II_Proyecto$Game_Managger.coverage" NAME="Game_Managger Coverage Results" MODIFIED="1749502034000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/II_Proyecto$Game_Managger_2mode.coverage" NAME="Game_Managger_2mode Coverage Results" MODIFIED="1749503140597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modo_solo" />
     <SUITE FILE_PATH="coverage/II_Proyecto$Card.coverage" NAME="Card Coverage Results" MODIFIED="1749257118164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/II_Proyecto$window_soloMode.coverage" NAME="window_soloMode Coverage Results" MODIFIED="1749519411612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\ezepr\Documents\Programación\Phyton\II_Proyecto\modo_solo" />
   </component>
 </project>
