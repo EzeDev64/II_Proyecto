@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e176563-c4ae-46d1-9ef8-f6e6bd0be0e8" name="Changes" comment="Prueba de commit">
+      <change beforePath="$PROJECT_DIR$/.idea/II_Proyecto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/II_Proyecto.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modo_solo/Game_Managger_2mode.py" beforeDir="false" afterPath="$PROJECT_DIR$/modo_solo/Game_Managger_2mode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modo_solo/window_soloMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/modo_solo/window_soloMode.py" afterDir="false" />
@@ -71,7 +73,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.window_soloMode">
     <configuration name="window" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="II_Proyecto" />
       <option name="ENV_FILES" value="" />
@@ -162,6 +164,7 @@
       <workItem from="1749253582421" duration="23138000" />
       <workItem from="1749499362317" duration="524000" />
       <workItem from="1749500314825" duration="9088000" />
+      <workItem from="1749622725366" duration="5617000" />
     </task>
     <task id="LOCAL-00001" summary="Creación del repositorio con los archivos base">
       <option name="closed" value="true" />
@@ -261,10 +264,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Prueba de commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/II_Proyecto$Game_Managger_2mode.coverage" NAME="Game_Managger_2mode Coverage Results" MODIFIED="1749580251020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modo_solo" />
-    <SUITE FILE_PATH="coverage/II_Proyecto$window_soloMode.coverage" NAME="window_soloMode Coverage Results" MODIFIED="1749580380212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modo_solo" />
     <SUITE FILE_PATH="coverage/II_Proyecto$window.coverage" NAME="window Coverage Results" MODIFIED="1749502990879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/II_Proyecto$Game_Managger_2mode.coverage" NAME="Game_Managger_2mode Coverage Results" MODIFIED="1749580251020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modo_solo" />
     <SUITE FILE_PATH="coverage/II_Proyecto$Game_Managger.coverage" NAME="Game_Managger Coverage Results" MODIFIED="1749502034000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/II_Proyecto$Card.coverage" NAME="Card Coverage Results" MODIFIED="1749257118164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/II_Proyecto$window_soloMode.coverage" NAME="window_soloMode Coverage Results" MODIFIED="1749669769881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\ezepr\Documents\Programación\Phyton\II_Proyecto\modo_solo" />
   </component>
 </project>

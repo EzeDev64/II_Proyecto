@@ -3,8 +3,11 @@ from Card import *
 
 
 class GM_mode2(Game_Managger):
-    def __init__(self, window, player_lst,order_lst):
+    def __init__(self, window, lbl_timer, player_lst,order_lst):
         super().__init__(window, player_lst)
+        self.action_time = 12
+        self.lbl_timer = lbl_timer
+        self.time_stop = False
         self.order_lst = order_lst
         self.lst_full = None
 
@@ -22,11 +25,18 @@ class GM_mode2(Game_Managger):
             column += 1
 
     def next_round(self):
+        self.time_stop = True
+        self.action_time += 3
+        self.lbl_timer.config(text="Time: " + str(self.action_time))
+
+        if self.order_lst == self.lst_full:
+            print("GANASTE")
+            return
+
         for e in self.card_lst:
             e.component.grid_forget()
             del e
         self.card_lst = []
-        element = 1
         self.order_lst.append(self.lst_full[len(self.order_lst)])
 
         for i in self.order_lst:
@@ -59,11 +69,15 @@ class GM_mode2(Game_Managger):
             #self.window.after(500, lambda: self.hide_cards(actual_card))
 
     def animation_order(self,index,id_after,last):
+        self.player_lst.is_playing = False
         card_lst_size = len(self.card_lst)
         if index >= card_lst_size:
             last.component.config(bg="white")
             last.hide()
             self.window.after_cancel(id_after)
+            self.time_stop = False
+            self.timer_start(None)
+            self.player_lst.is_playing = True
             return
 
         for i in self.card_lst:
@@ -78,3 +92,19 @@ class GM_mode2(Game_Managger):
                 last = i
 
                 id_after = self.window.after(500, lambda: self.animation_order(index + 1, id_after,last))
+
+    def timer_start(self,id_after):
+        print( self.action_time)
+        if id_after != None:
+            self.window.after_cancel(id_after)
+        if  self.action_time <= 0:
+            self.window.after_cancel(id_after)
+            print("Perdiste :(")
+            self.player_lst.is_playing= False
+            return
+
+        if not self.time_stop:
+            self.action_time -= 1
+            self.lbl_timer.config(text="Time: " + str(self.action_time))
+            id_after = self.window.after(1000, lambda: self.timer_start(id_after))
+
