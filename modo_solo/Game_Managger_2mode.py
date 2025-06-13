@@ -9,6 +9,7 @@ class GM_mode2(Game_Managger):
         self.lbl_timer = lbl_timer
         self.time_stop = False
         self.order_lst = order_lst
+        self.after_stack = []
         self.lst_full = None
 
     def set_full_lst(self,lst_full):
@@ -76,7 +77,7 @@ class GM_mode2(Game_Managger):
             last.hide()
             self.window.after_cancel(id_after)
             self.time_stop = False
-            self.timer_start(None)
+            self.timer_start()
             self.player_lst.is_playing = True
             return
 
@@ -93,12 +94,13 @@ class GM_mode2(Game_Managger):
 
                 id_after = self.window.after(500, lambda: self.animation_order(index + 1, id_after,last))
 
-    def timer_start(self,id_after):
-        print( self.action_time)
-        if id_after != None:
-            self.window.after_cancel(id_after)
+    def timer_start(self):
+        if self.after_stack != []:
+            self.window.after_cancel(self.after_stack[0])
+            self.after_stack.pop(0)
         if  self.action_time <= 0:
-            self.window.after_cancel(id_after)
+            self.window.after_cancel(self.after_stack[0])
+            self.after_stack.pop(0)
             print("Perdiste :(")
             self.player_lst.is_playing= False
             return
@@ -106,5 +108,10 @@ class GM_mode2(Game_Managger):
         if not self.time_stop:
             self.action_time -= 1
             self.lbl_timer.config(text="Time: " + str(self.action_time))
-            id_after = self.window.after(1000, lambda: self.timer_start(id_after))
+            self.after_stack.append(self.window.after(1000, self.timer_start))
+
+    def cancel_afters(self):
+        while self.after_stack != []:
+            self.window.after_cancel(self.after_stack[0])
+            self.after_stack.pop(0)
 

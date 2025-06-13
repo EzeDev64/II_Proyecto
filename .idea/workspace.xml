@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e176563-c4ae-46d1-9ef8-f6e6bd0be0e8" name="Changes" comment="Prueba de commit">
-      <change beforePath="$PROJECT_DIR$/.idea/II_Proyecto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/II_Proyecto.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1e176563-c4ae-46d1-9ef8-f6e6bd0be0e8" name="Changes" comment="Segundo modo completado con todas las features. Estado alpha, falta pulido bux fixing y comentar el código">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/window_menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modo_solo/Game_Managger_2mode.py" beforeDir="false" afterPath="$PROJECT_DIR$/modo_solo/Game_Managger_2mode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modo_solo/window_soloMode.py" beforeDir="false" afterPath="$PROJECT_DIR$/modo_solo/window_soloMode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/window.py" beforeDir="false" afterPath="$PROJECT_DIR$/window.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,26 +55,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Card.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Game_Managger.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Game_Managger_2mode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.window.executor&quot;: &quot;Run&quot;,
-    &quot;Python.window_soloMode.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;modo__juego2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Card.executor": "Run",
+    "Python.Game_Managger.executor": "Run",
+    "Python.Game_Managger_2mode.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.window.executor": "Run",
+    "Python.window_menu.executor": "Run",
+    "Python.window_soloMode.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "modo__juego2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.window_soloMode">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ezepr\Documents\Programación\Phyton\II_Proyecto" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="window" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="II_Proyecto" />
       <option name="ENV_FILES" value="" />
@@ -164,7 +172,7 @@
       <workItem from="1749253582421" duration="23138000" />
       <workItem from="1749499362317" duration="524000" />
       <workItem from="1749500314825" duration="9088000" />
-      <workItem from="1749622725366" duration="5617000" />
+      <workItem from="1749622725366" duration="12306000" />
     </task>
     <task id="LOCAL-00001" summary="Creación del repositorio con los archivos base">
       <option name="closed" value="true" />
@@ -214,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749578555798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Segundo modo completado con todas las features. Estado alpha, falta pulido bux fixing y comentar el código">
+      <option name="closed" value="true" />
+      <created>1749670392104</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749670392104</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,13 +277,16 @@
     <MESSAGE value="Creación de la clase Card y de la de la ventana principal.Lógica de mostrar y ocultar cartas; además de la aleatoriedad." />
     <MESSAGE value="Clases principales (Game_Managger,Card y Player) creados. Además de la lógica de escoger cartas, reconocer si son pares y arreglo de bugs)" />
     <MESSAGE value="Prueba de commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prueba de commit" />
+    <MESSAGE value="Segundo modo completado con todas las features. Estado alpha, falta pulido bux fixing y comentar el código" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo modo completado con todas las features. Estado alpha, falta pulido bux fixing y comentar el código" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/II_Proyecto$window.coverage" NAME="window Coverage Results" MODIFIED="1749502990879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/II_Proyecto$window.coverage" NAME="window Coverage Results" MODIFIED="1749672133292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/II_Proyecto$Game_Managger_2mode.coverage" NAME="Game_Managger_2mode Coverage Results" MODIFIED="1749580251020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modo_solo" />
     <SUITE FILE_PATH="coverage/II_Proyecto$Game_Managger.coverage" NAME="Game_Managger Coverage Results" MODIFIED="1749502034000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/II_Proyecto$window_menu.coverage" NAME="window_menu Coverage Results" MODIFIED="1749673542561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modo_solo" />
     <SUITE FILE_PATH="coverage/II_Proyecto$Card.coverage" NAME="Card Coverage Results" MODIFIED="1749257118164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/II_Proyecto$window_soloMode.coverage" NAME="window_soloMode Coverage Results" MODIFIED="1749669769881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\ezepr\Documents\Programación\Phyton\II_Proyecto\modo_solo" />
+    <SUITE FILE_PATH="coverage/II_Proyecto$window_soloMode.coverage" NAME="window_soloMode Coverage Results" MODIFIED="1749675962242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modo_solo" />
+    <SUITE FILE_PATH="coverage/II_Proyecto$main.coverage" NAME="main Coverage Results" MODIFIED="1749676743920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
